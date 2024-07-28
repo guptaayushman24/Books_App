@@ -12,7 +12,6 @@
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": [
-
       "assets/**/*"
     ],
     "ios": {
@@ -28,6 +27,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9b94f4ff-f775-4562-be28-e2e3907087e5"
+      }
     }
   }
 }
