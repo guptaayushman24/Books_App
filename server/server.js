@@ -8,7 +8,7 @@ const PORT = 3000;
 app.use(bodyParser.json());
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/Cart', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://guptaayushman24:12345@cartcluster.uph5tvp.mongodb.net/?retryWrites=true&w=majority&appName=CartCluster', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Mongoose model
 const BookModel = mongoose.model('books', new mongoose.Schema({
